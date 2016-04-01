@@ -1,0 +1,74 @@
+ <form class="form-horizontal" role="form" method="POST" action="{{ url('/subscribe') }}">
+                        {!! csrf_field() !!}
+                        <div class="form-group{{ $errors->has('creditCardNo') ? ' has-error' : '' }}">
+
+                            
+
+                            <label class="col-md-4 control-label">Credit card number:</label>
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="creditCardNo" value="{{ old('creditCardNo') }}">
+
+                                @if ($errors->has('creditCardNo'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('creditCardNo') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+
+                        </div>
+
+                        <div class="form-group{{ $errors->has('cardValidationNo') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Car Validation Number:</label>
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="cardValidationNo" value="{{ old('cardValidationNo') }}">
+
+                                @if ($errors->has('cardValidationNo'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('cardValidationNo') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('cardExpMonth') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Month Expiration:</label>
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="cardExpMonth" value="{{ old('cardExpMonth') }}">
+
+                                @if ($errors->has('cardExpMonth'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('cardExpMonth') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <div class="form-group{{ $errors->has('cardExpYear') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Year Expiration:</label>
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="cardExpYear" value="{{ old('cardExpYear') }}">
+
+                                @if ($errors->has('cardExpYear'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('cardExpYear') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <!-- Credit car number  /   Card validation code (3 or 4 digit) / Ex. month /  Ex. Year /-->
+
+                        <div class="form-group">
+                            <div class="col-md-6 col-md-offset-4">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-btn fa-sign-in"></i>Subscribe
+                                </button>
+
+                            </div>
+                        </div>
+
+                    </form>

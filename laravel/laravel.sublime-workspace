@@ -1,0 +1,261 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"su",
+				"subscribe"
+			],
+			[
+				"is_n",
+				"is_null"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "Package Control: inst",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 557.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/developer/Code/laravel_propre",
+		"/home/developer/Code/laravel_propre/app",
+		"/home/developer/Code/laravel_propre/app/Http/Controllers",
+		"/home/developer/Code/laravel_propre/public",
+		"/home/developer/Code/laravel_propre/public/css",
+		"/home/developer/Code/laravel_propre/public/js",
+		"/home/developer/Code/laravel_propre/resources",
+		"/home/developer/Code/laravel_propre/resources/views",
+		"/home/developer/Code/laravel_propre/resources/views/errors",
+		"/home/developer/Code/laravel_propre/resources/views/layouts",
+		"/home/developer/Code/laravel_propre/storage",
+		"/home/developer/Code/laravel_propre/vendor",
+		"/home/developer/Code/laravel_propre/vendor/laravel"
+	],
+	"file_history":
+	[
+		"/home/developer/Code/laravel_propre/composer.json",
+		"/home/developer/Code/laravel_propre/gulpfile.js",
+		"/home/developer/Code/laravel_propre/app/User.php",
+		"/home/developer/Code/laravel_propre/config/services.php",
+		"/home/developer/Code/laravel_propre/config/app.php",
+		"/home/developer/Code/laravel_propre/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/home/developer/Code/laravel_propre/resources/views/subscription.blade.php",
+		"/home/developer/Code/laravel_propre/.env",
+		"/home/developer/Code/laravel_propre/resources/views/home.blade.php",
+		"/home/developer/Code/laravel_propre/resources/views/layouts/app.blade.php",
+		"/home/developer/Code/laravel_propre/app/Http/Controllers/HomeController.php",
+		"/home/developer/Code/laravel_propre/app/Http/routes.php",
+		"/home/developer/Code/laravel_propre/app/Http/Controllers/SubscriptionController.php",
+		"/home/developer/Code/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
+		"/home/developer/Code/laravel/app/Http/Requests/CreateUser.php",
+		"/home/developer/Code/laravel/resources/views/signup.blade.php",
+		"/home/developer/Code/laravel/app/Http/Controllers/Controller.php",
+		"/home/developer/Code/laravel/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/home/developer/Code/laravel/resources/views/subscribe.blade.php",
+		"/home/developer/Code/laravel/.env",
+		"/home/developer/Code/laravel/app/Http/Controllers/PagesController.php",
+		"/home/developer/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/developer/Code/laravel/package.json",
+		"/home/developer/.config/sublime-text-3/Packages/User/Default.tmPreferences",
+		"/home/developer/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"show",
+			"new_di",
+			"new file"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.463813073763,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "laravel.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"authenticatesandregistersusers",
+				"laravel/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php"
+			],
+			[
+				"",
+				"laravel/app/Http/Controllers/UsersController.php"
+			],
+			[
+				"users",
+				"laravel/app/Http/Controllers/UsersController.php"
+			],
+			[
+				"usersc",
+				"laravel/app/Http/Controllers/UsersController.php"
+			],
+			[
+				"pagesc",
+				"laravel/app/Http/Controllers/PagesController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Code.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 384.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
